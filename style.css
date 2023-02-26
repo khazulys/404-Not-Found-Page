@@ -7,10 +7,9 @@
 .container {
         width: 100%;
         height: 100vh;
-        margin: 100px auto;
 }
 .row {
-        transform: translate(50%, 50%);
+        transform: translateY(100px);
 }
 header {
 	padding-left: 20px;
