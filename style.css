@@ -50,21 +50,19 @@ header > h3 {
 	text-decoration: none;
 	text-transform: uppercase;
 }
-footer {
-        padding-top: 100px;
-}
 footer p {
 	font-size: 14px;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 500;
 	color: #bdbdbd;
+        padding: 100px 0;
 } 
 footer a {
 	display: inline-block;
 	color: #333333;
 	font-weight: 700;
 }
-@media only screen and (min-width: 1024) {
+@media only screen and (min-width: 1024px) {
     .container {
        display: flex;
     }
