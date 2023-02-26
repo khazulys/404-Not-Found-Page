@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@500;700&family=Space+Mono:wght@400;700&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header {
+	padding: 20px 0 20px 20px;
+}
+header > h3 {
+	font-family: 'Inconsolata', monospace;
+	text-transform: uppercase;
+	font-size: 24px;
+	color: #333333;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.img__hero {
+	padding: 50px;
+}
+.img__hero > img {
+	width: 286px;
+	height: 220px;
+}
+.content__hero {
+	padding-left: 20px;
+}
+.content__hero > h1 {
+	font-size: 48px;
+	color: #333333;
+	font-family: 'Space Mono', monospace;
+	font-weight: 700;
+}
+.content__hero > p {
+	font-size: 18px;
+	font-family: 'Space Mono', monospace;
+	font-weight: 400;
+	margin: 30px 0;
+	color: #4f4f4f;
+}
+.btn__action-hero {
+	background-color: #333333;
+	border-radius: 3px;
+	margin: 40px 0;
+	transform: translateX(-55%);
+}
+.btn__action-hero > a {
+	display: block;
+	padding: 20px;
+	font-family: 'Space Mono', monospace;
+	font-weight: 700;
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 80px 0 20px 0;
+}
+footer p {
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	color: #bdbdbd;
+} 
+footer a {
+	display: inline-block;
+	color: #333333;
+	font-weight: 700;
+}
+@media only screen and (min-width: 768px) {
+	.container {
+		width: 100%;
+		flex-direction: row;
+	}
+	header {
+		padding-left: 30px;
+	}
+	.btn__action-hero {
+		position: absolute;
+		transform: translate(200px,200px);
+	}
+	.img__hero > img {
+		width: 540px;
+		height: 415px;
+		transform: translateX(-30px);
+	}
+	.content__hero {
+		transform: translateX(-30px);
+	}
+}
+@media only screen and (min-width: 480px) and (orientation: landscape) {
+	.container {
+		flex-direction: column;
+	}
+	.img__hero > img {
+		transform: translateX(25px);
+	}
+	.btn__action-hero {
+		transform: translate(-182.5px, 450px);
+	}
+	.content__hero {
+		width: 80%;
+		transform: translateX(50px);
+	}
+	footer {
+		margin-top: 100px;
+	}
+}
