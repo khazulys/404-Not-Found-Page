@@ -67,7 +67,9 @@ footer a {
 }
 @media only screen and (min-width: 768px) {
      footer {
+       display: flex;
+       justify-content: center;
+       align-items: center;
        position: absolute;
        bottom: 0;
-       transform: translateX(50%);
 }
