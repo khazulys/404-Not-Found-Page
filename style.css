@@ -57,6 +57,9 @@ footer {
         margin-top: 100px;
         position: fixed;
         bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 }
 footer p {
 	font-size: 14px;
