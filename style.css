@@ -69,6 +69,6 @@ footer a {
 }
 @media only screen and (min-width: 1200px) {
     .container {
-       display: flex;
+       display: flex !important;
     }
 }
