@@ -53,11 +53,16 @@ header > h3 {
 	text-decoration: none;
 	text-transform: uppercase;
 }
+footer {
+    position: relative;
+    bottom: 0;
+}
 footer p {
 	font-size: 14px;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 500;
 	color: #bdbdbd;
+        padding-top: 100px;
 } 
 footer a {
 	display: inline-block;
